@@ -6,7 +6,6 @@ from flask import Flask, request, send_file, render_template
 from openpyxl import load_workbook, Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
-import pandas as pd
 import io
 import os
 import tempfile
